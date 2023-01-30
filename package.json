@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "devDependencies": {
+    "esbuild": "0.9.6",
+    "esbuild-svelte": "0.7.3",
+    "svelte": "3.43.0"
+  }
+}
