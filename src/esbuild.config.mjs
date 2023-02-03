@@ -1,5 +1,11 @@
-import { default as sveltePlugin } from 'esbuild-svelte'
+import esbuildSvelte from "esbuild-svelte";
+import sveltePreprocess from "svelte-preprocess";
 
 export default {
-  plugins: [sveltePlugin()],
+  plugins: [esbuildSvelte({
+    compilerOptions: {
+      css: 'injected',
+    },
+    preprocess: sveltePreprocess(),
+  })],
 }
