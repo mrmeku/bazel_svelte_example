@@ -3,16 +3,18 @@ lockfileVersion: 5.4
 specifiers:
   esbuild: 0.9.6
   esbuild-svelte: 0.7.3
-  svelte: 3.43.0
+  svelte: 3.55.1
+
+dependencies:
+  svelte: 3.55.1
 
 devDependencies:
   esbuild: 0.9.6
-  esbuild-svelte: 0.7.3_vnlszvektnx56bonnendc3c6mq
-  svelte: 3.43.0
+  esbuild-svelte: 0.7.3_z7ewpqqflojv7wuavtrbh6s2cy
 
 packages:
 
-  /esbuild-svelte/0.7.3_vnlszvektnx56bonnendc3c6mq:
+  /esbuild-svelte/0.7.3_z7ewpqqflojv7wuavtrbh6s2cy:
     resolution: {integrity: sha512-aq4PjZowV2LhW5U6KYKDkaHiAp9q/NquthbX1tddGRGYrlaBBGgDNis58jNU4wU6+iHsNWfLVsg8G3W6ccszdw==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -20,7 +22,7 @@ packages:
       svelte: '>=3.43.0'
     dependencies:
       esbuild: 0.9.6
-      svelte: 3.43.0
+      svelte: 3.55.1
     dev: true
 
   /esbuild/0.9.6:
@@ -29,7 +31,6 @@ packages:
     requiresBuild: true
     dev: true
 
-  /svelte/3.43.0:
-    resolution: {integrity: sha512-T2pMPHrxXp+SM8pLLUXLQgkdo+JhTls7aqj9cD7z8wT2ccP+OrCAmtQS7h6pvMjitaZhXFNnCK582NxDpy8HSw==}
+  /svelte/3.55.1:
+    resolution: {integrity: sha512-S+87/P0Ve67HxKkEV23iCdAh/SX1xiSfjF1HOglno/YTbSTW7RniICMCofWGdJJbdjw3S+0PfFb1JtGfTXE0oQ==}
     engines: {node: '>= 8'}
-    dev: true

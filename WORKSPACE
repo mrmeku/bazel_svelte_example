@@ -1,4 +1,4 @@
-workspace(name = "shutter")
+workspace(name = "bazel_svelte_example")
 
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
