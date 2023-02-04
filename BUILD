@@ -16,4 +16,5 @@ pkg_tar(
         "//src:bundle",
         "//static",
     ],
+    visibility = ["//dev/server:__pkg__"],
 )
